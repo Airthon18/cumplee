@@ -1,0 +1,64 @@
+body {
+   background: #f2c0e2;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+ }
+ .h1 {
+   background: center;
+ }
+ /* Alineación centrada y ajuste de tamaño para el contenedor */
+ div {
+   position: absolute;
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ 
+ /* Ajustes para SVG */
+ svg {
+   width: 100%;
+   height: auto;
+   max-width: 400px;
+ }
+ 
+ /* Ajustes responsivos */
+ @media screen and (max-width: 768px) {
+   /* Ajustes para tablets o dispositivos medianos */
+   div {
+     max-width: 100%;
+   }
+   
+   svg {
+     max-width: 500px;
+   }
+ }
+ 
+ @media screen and (max-width: 480px) {
+   .h1 {
+      background: center;
+    }
+   /* Ajustes para móviles */
+   div {
+     max-width: 95%;
+   }
+ 
+   svg {
+     max-width: 350px;
+   }
+ }
+ 
+ @media screen and (max-width: 360px) {
+   /* Ajustes para móviles más pequeños */
+   .h1 {
+      background: center;
+    }
+   svg {
+     max-width: 200px;
+   }
+ }
+ 
